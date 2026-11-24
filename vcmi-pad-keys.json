@@ -1,0 +1,23 @@
+{
+	"_comment": "H3 Overlay pad layout, VCMI side. The overlay sends each spare key below for a pad button or chord (see k_pad_binds in H3Overlay.c); install.ps1 adds the key to every listed shortcut in keyBindingsConfig.json. VCMI only sends keys to its top window, so each list may name one action per screen. Lists checked against the VCMI 1.7.5 source: no key does two things on one screen. Plain VCMI keys used by chords (K, J, P, G, F8, F9, Keypad +/-) need no entry.",
+	"keys": {
+		"F13":        [ "globalCancel", "globalReturn", "adventureExitWorldView", "mainMenuBack" ],
+		"F14":        [ "globalAccept", "adventureMoveHero", "battleWait", "battleTacticsEnd" ],
+		"F15":        [ "moveUp", "adventureFirstHero", "recruitmentMax" ],
+		"F16":        [ "moveDown", "adventureNextHero", "recruitmentMin" ],
+		"F17":        [ "moveLeft", "adventureFirstTown" ],
+		"F18":        [ "moveRight", "adventureNextTown" ],
+		"F19":        [ "adventureViewSelected", "battleDefend", "townOpenRecruitment" ],
+		"F20":        [ "adventureCastSpell", "battleCastSpell", "battleTacticsNext" ],
+		"F21":        [ "adventureEndTurn", "battleAutocombat" ],
+		"F22":        [ "globalOptions" ],
+		"F23":        [ "adventureToggleMapLevel", "battleToggleHeroesStats" ],
+		"F24":        [ "adventureVisitObject", "battleUseCreatureSpell" ],
+		"Keypad 0":   [ "adventureToggleSleep", "battleRetreat" ],
+		"Keypad *":   [ "adventureDigGrail", "battleSurrender" ],
+		"Keypad /":   [ "adventureViewWorld", "battleOpenActiveUnit" ],
+		"Keypad .":   [ "adventureQuestLog", "battleToggleQueue" ],
+		"Insert":     [ "adventureViewScenario", "battleToggleQuickSpell" ],
+		"ScrollLock": [ "adventureMarketplace" ]
+	}
+}

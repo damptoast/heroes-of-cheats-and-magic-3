@@ -1,0 +1,15 @@
+dist/
+.tools/
+*.exe
+*.pdb
+*.dll
+*.obj
+*.zip
+# Heroes III content must never be committed
+assets/
+*.lod
+*.pcx
+*.fnt
+*.bmp
+H3Overlay_catalog.txt
+reports/

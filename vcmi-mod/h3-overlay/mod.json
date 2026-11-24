@@ -1,0 +1,23 @@
+{
+	"name" : "H3 Overlay",
+	"description" : "Settings-only companion to the H3 Overlay for VCMI. Turns on VCMI's tavern hero invite (any tavern can hire any unused hero you pick) and unlocks every campaign.",
+	"author" : "H3 Overlay contributors",
+	"version" : "1.0.0",
+	"modType" : "Mechanics",
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+
+	"settings" : {
+		"heroes" : {
+			// gameConfig.json heroes.tavernInvite: tavern shows an "invite hero"
+			// picker listing every hero not already in play.
+			"tavernInvite" : true
+		},
+		"campaign" : {
+			// gameConfig.json campaign.unlockAll: every campaign can be started
+			// without finishing the ones before it. Progress is not changed.
+			"unlockAll" : true
+		}
+	}
+}

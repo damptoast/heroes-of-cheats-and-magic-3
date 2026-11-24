@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in the H3 Overlay does not work
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Easiest way: in game press **RT + Back** (hold the right trigger, tap Back), or use
+        **Report a bug** in the cheat panel (Settings section). The overlay copies a report to your
+        clipboard and opens this form with it filled in. If the report was cut to fit the link,
+        paste the clipboard over the text below.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you press, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Report
+      description: Written by the overlay (versions, recent messages, VCMI log tail). Paths are scrubbed.
+      render: text
+  - type: input
+    id: pad
+    attributes:
+      label: Controller
+      description: Xbox / PlayStation / other (and whether Steam Input or DS4Windows is running)
